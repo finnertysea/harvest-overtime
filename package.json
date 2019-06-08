@@ -1,5 +1,5 @@
 {
-  "name": "harvest-overtime",
+  "name": "harvest-overtime-fc",
   "version": "2.1.0",
   "description": "Track the overtime!",
   "keywords": [
@@ -15,17 +15,17 @@
     "type": "git",
     "url": "git+https://github.com/finnertysea/harvest-overtime.git"
   },
-  "main": "lib/harvest-overtime.js",
-  "types": "lib/harvest-overtime.d.ts",
+  "main": "lib/harvest-overtime-fc.js",
+  "types": "lib/harvest-overtime-fc.d.ts",
   "bin": {
-    "harvest-overtime": "./lib/harvest-overtime.js"
+    "harvest-overtime-fc": "./lib/harvest-overtime-fc.js"
   },
   "scripts": {
     "compile": "tsc",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "prestart": "npm run compile",
     "pack-publish": "npm run compile && npm publish",
-    "start": "node lib/harvest-overtime.js",
+    "start": "node lib/harvest-overtime-fc.js",
     "test": "mocha --require ts-node/register test/**/*.test.ts"
   },
   "author": "Fernanda Andrade -> Finnerty Cunliffe",
